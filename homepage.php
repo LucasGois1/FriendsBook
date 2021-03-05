@@ -30,12 +30,16 @@
         </div>
         <div class="feed-area">
             <div class="post-area">
+                <label for="">
+                    Novo post
+                </label>
                 <form action="" method="get" class="post-form">
                     <textarea name="post" id="post" cols="30" rows="5"></textarea>
                     <input type="submit" value="Postar" class="button purple" style="width: 20%;">
                 </form>
             </div>
             <div class="feeds">
+                <h1>Feed</h1>
                 <div class="models">
                     <div class="post-model">
                         <div class="post-header">
@@ -44,6 +48,14 @@
                             </div>
                             <div class="post-author">
                                 Lucas Gois
+                            </div>
+                            <div class="options">
+                                <button class="button" style="width: 20%;  margin-top: 0px">
+                                    Editar
+                                </button>
+                                <button class="button" style="width: 20%; margin-left: 10px; margin-top: 0px">
+                                    Excluir
+                                </button>
                             </div>
                         </div>
                         <div class="post-content">
