@@ -30,7 +30,7 @@
                 <div class="entrar">
                     <label for="">
                         E-mail
-                        <input type="email" name="email" id="email" value="example@mail.com">
+                        <input type="email" name="email" id="email" placeholder="example@mail.com">
                     </label>
                     <label for="">
                         Senha
@@ -39,14 +39,10 @@
                     <label for="">
                         <a href="redefinirSenha.php">Esqueceu sua senha?</a>
                     </label>
-                    <button class="purple" type="submit">
-                        Entrar
-                    </button>
+                    <input type="submit" value="Entrar" class="button purple">
                 </div>
                 <div class="novoUsuario">
-                    <button class="white" action="cadastrar.php">
-                        Cadastre-se
-                    </button>
+                    <a href="cadastrar.php" class="button">Cadastrar</a>
                 </div>
             </form>
 
