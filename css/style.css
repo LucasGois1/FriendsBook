@@ -1,0 +1,135 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.logo-area {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.logo {
+    font-size: larger;
+    font-weight: bolder;
+    color: white;
+}
+
+.body {
+    display: flex;
+    padding: 50px;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    width: 100vw;
+    height: 100%;
+    background-color: #7005c8;
+}
+
+.slogan {
+    display: flex;
+    flex: 5;
+    font-size: 40px;
+    padding: 20px;
+    color: white;
+}
+
+.form {
+    display: flex;
+    flex: 2;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 600px;
+    padding: 20px;
+    border-radius: 25px;
+    background-color: white;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+.form-title {
+    display: flex;
+    flex: 1;
+}
+
+.entrar {
+    display: flex;
+    flex: 3;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-bottom: solid 1px gray;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 30px;
+}
+
+label {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+    width: 100%;
+    font-weight: bold;
+}
+
+input {
+    display: flex;
+    width: 80%;
+    height: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid black;
+    border-radius: 20px;
+    font-size: medium;
+}
+
+.novoUsuario {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    height: 50px;
+    border-radius: 25px;
+    border: 1px solid;
+    font-weight: bold;
+    font-size: medium;
+    background-color: black;
+    color: white;
+}
+
+.purple {
+    background-color: #7005c8;
+}
